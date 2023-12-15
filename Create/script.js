@@ -74,14 +74,20 @@
 
 
 const learners = [
-    { name: "Noé Andernack" },
-    { name: "Ugur Firat" },
-    { name: "Huseyin Sasmaz" },
+    { name: "Noé " },
+    { name: "Ugur " },
+    { name: "Mathias" },
+    { name: "Alexis" },
+    { name: "Maoro" },
+    { name: "Alice" },
+    { name: "Denis" },
+    { name: "Damien" },
+    { name: "Huseyin" },
 ];
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
+        const j = Math.floor(Math.random() * array.lenght);
         [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
